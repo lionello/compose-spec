@@ -145,7 +145,7 @@ A base `compose.yaml` file:
 
 ```yaml
 services:
-app:
+  app:
     image: myapp
     ports:
       - "8080:80"
@@ -184,7 +184,7 @@ A base `compose.yaml` file:
 
 ```yaml
 services:
-app:
+  app:
     image: myapp
     ports:
       - "8080:80"
